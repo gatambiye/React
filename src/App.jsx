@@ -1,12 +1,13 @@
+
 /* eslint-disable no-unused-vars */
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
-import MainLayout from './layouts/MainLayout'
-import HomePage from './pages/HomePage'
-import JobsPage from './pages/JobsPage'
-import NotFoundPage from './pages/NotFoundPage'
-import JobPage, {jobLoader} from './pages/JobPage'
-import AddJobPage from './pages/AddJobPage'
-import EditJobPage from './pages/EditJobPage'
+import MainLayout from './LayOuts/MainLayout'
+import HomePage from './Pages/HomePage'
+import JobsPage from './Pages/JobsPage'
+import NotFoundPage from './Pages/NotFoundPage'
+import JobPage, {jobLoader} from './Pages/JobPage'
+import AddJobPage from './Pages/AddJobPage'
+import EditJobPage from './Pages/EditJobPage'
 
 
 const App = () => {
