@@ -1,6 +1,6 @@
 
 /* eslint-disable no-unused-vars */
-import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react'
 import MainLayout from './LayOuts/MainLayout'
 import HomePage from './Pages/HomePage'
 import JobsPage from './Pages/JobsPage'
